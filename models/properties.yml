@@ -1,0 +1,17 @@
+# models:
+  # - name: materalized_table
+  #   config: 
+  #     materialized: table 
+  # - name: materalized_view
+  #   config: 
+  #     materialized: view
+  # - name: getdatafromsnowflake
+  #   config: 
+  #     materialized: view
+sources:
+  - name: "all_my_data_sources"
+    database: "SNOWFLAKE_SAMPLE_DATA"
+    schema: "TPCH_SF1"
+    tables:
+      - name: "CUSTOMER"
+      - name: "ORDERS"
