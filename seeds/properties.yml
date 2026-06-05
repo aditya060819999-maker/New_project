@@ -1,0 +1,12 @@
+seeds:
+  - name : cmapping
+    description: "this is the Yaml "
+    config:
+      column_types:
+        country: varchar
+        sales : integer
+    
+        
+       
+
+      

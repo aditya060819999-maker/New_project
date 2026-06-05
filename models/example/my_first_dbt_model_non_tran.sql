@@ -8,7 +8,7 @@
 */
 
 {{ config(materialized='table',
-transient = 'true') }}
+transient = 'False') }}
 
 with source_data as (
 

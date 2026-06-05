@@ -7,8 +7,8 @@
     Try changing "table" to "view" below
 */
 
-{{ config(materialized='table',
-transient = 'true') }}
+{{ config(materialized='view',
+secure = 'true')}}
 
 with source_data as (
 
