@@ -1,1 +1,1 @@
-select * form {{dbt.replace()}}
+--select * from {{dbt.replace()}}
