@@ -9,6 +9,13 @@
   #   config: 
   #     materialized: view
 sources:
+  - name: "src"
+    database: "DEMO_DATABASE"
+    schema: "DBT_AADITYA"
+    tables:
+      - name: "ORDERS"
+
+
   - name: "all_my_data_sources"
     database: "SNOWFLAKE_SAMPLE_DATA"
     schema: "TPCH_SF1"

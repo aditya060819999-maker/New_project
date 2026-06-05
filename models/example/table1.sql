@@ -1,6 +1,2 @@
-{{config (
-    materrilaized =  'table'
-)}}
-select * from {{source (
-    "all_"
-)}}
+{{config (materialized =  'table')}}
+select * from {{source ( "all_my_data_sources","CUSTOMER" )}}
