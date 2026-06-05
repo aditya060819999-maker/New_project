@@ -1,1 +1,1 @@
-select *  from {{ ref("referncefile") }}
+select * form {{dbt.replace()}}
