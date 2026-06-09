@@ -14,7 +14,7 @@ sources:
     schema: "DBT_AADITYA"
     tables:
       - name: "ORDERS"
-
+      - name: "sls"
 
   - name: "all_my_data_sources"
     database: "SNOWFLAKE_SAMPLE_DATA"
@@ -22,3 +22,4 @@ sources:
     tables:
       - name: "CUSTOMER"
       - name: "ORDERS"
+     
