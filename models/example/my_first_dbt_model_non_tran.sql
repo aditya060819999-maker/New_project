@@ -8,6 +8,9 @@
 */
 
 {{ config(materialized='table',
+alais = 'tabkle1',
+target_databse = 'DEMO_DATABASE',
+target_schema = 'DBT_AADITYA',
 transient = 'False') }}
 
 with source_data as (

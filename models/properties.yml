@@ -15,6 +15,9 @@ sources:
     tables:
       - name: "ORDERS"
       - name: "sls"
+      - name:  "cust"
+      - name: "cust_v2"
+      - name : "SOMETABLE"
 
   - name: "all_my_data_sources"
     database: "SNOWFLAKE_SAMPLE_DATA"
